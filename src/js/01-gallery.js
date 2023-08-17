@@ -3,7 +3,7 @@ import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const gallery = document.querySelector('.gallery');
-console.log(gallery);
+
 export const addImage = galleryItems
   .map(
     image => `<li class="gallery__item">
