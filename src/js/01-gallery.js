@@ -16,7 +16,7 @@ export const addImage = galleryItems
 
 gallery.insertAdjacentHTML('afterbegin', addImage);
 
-let simpleLightbox = new SimpleLightbox('.gallery a', {
+const simpleLightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
 });
